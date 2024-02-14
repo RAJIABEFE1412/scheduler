@@ -53,7 +53,7 @@ def generate_schedule_route():
                 "dept_name": cls.get_dept().get_name(),
                 "course_number": cls.get_course().get_number(),
                 "room_number": cls.get_room().get_number(),
-                "instructor_id": cls.get_instructor().get_id(),
+                "instructor_id": cls.get_instructor().get_name(),
                 "meeting_time_id": cls.get_meetingTime().get_time()
             }
             table_content.append(row)
